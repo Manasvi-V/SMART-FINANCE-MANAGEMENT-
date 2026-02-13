@@ -108,19 +108,13 @@ cp .env.example .env
 ```
 
 4. Update the `.env` file with your configuration:
-```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/expense-tracker
-JWT_SECRET=your_jwt_secret_key_here_change_this_in_production
-NODE_ENV=development
-```
+
 
 **For MongoDB Atlas:**
 - Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - Create a cluster and get your connection string
 - Replace `MONGODB_URI` with your Atlas connection string:
 ```
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/expense-tracker?retryWrites=true&w=majority
 ```
 
 5. Start the backend server:
